@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 	@GetMapping
 	public String welcomeMessage() {
-		return "Welcome to Spring Boot Security !!";
+		return "Welcome to Spring Boot Security and enjoy !!";
 	}
 }
